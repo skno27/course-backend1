@@ -1,0 +1,19 @@
+{
+  "name": "basicserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "client": "nodemon client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^5.0.0-beta.1"
+  }
+}
